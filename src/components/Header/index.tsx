@@ -1,9 +1,9 @@
 import { FC, useState } from "react";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 
-export const Header: FC = () => {
-  const [darkMode, setDarkMode] = useState<boolean>(false);
-
+export const Header: FC<{ onToggleTheme: () => void }> = ({
+  onToggleTheme,
+}) => {
   return (
     <nav className="py-10 mb-12 flex justify-between">
       <h1 className="text-xl dark:text-white">assebc</h1>
@@ -11,7 +11,7 @@ export const Header: FC = () => {
         <li>
           <BsFillMoonStarsFill
             className="cursor-pointer text-2xl dark:text-white"
-            onClick={() => setDarkMode(!darkMode)}
+            onClick={onToggleTheme}
           />
         </li>
         <li>
