@@ -1,4 +1,4 @@
-import { FC, useState } from "react";
+import { FC } from "react";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 
 export const Header: FC<{ onToggleTheme: () => void }> = ({
