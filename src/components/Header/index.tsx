@@ -4,7 +4,6 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 export const Header: FC<{ onToggleTheme: () => void }> = ({
   onToggleTheme,
 }) => {
-  console.log("loaded");
   return (
     <nav className="py-10 mb-12 flex justify-between">
       <h1 className="text-xl dark:text-white">assebc</h1>
