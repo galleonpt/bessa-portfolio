@@ -3,7 +3,6 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/bessa-portfolio/docs",
+  base: "/",
   plugins: [react()],
-  build: { outDir: "docs" },
 });
