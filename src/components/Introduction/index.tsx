@@ -39,10 +39,7 @@ export const Introduction: FC = () => {
           >
             <AiFillYoutube />
           </a>
-          <a
-            href="https://www.youtube.com/channel/UCYXW07u06W_eyY_GMJcQDaw"
-            target="_blank"
-          >
+          <a href="https://www.twitch.tv/bessitos" target="_blank">
             <BsTwitch size={48} />
           </a>
           <a href="https://www.instagram.com/bessitos_" target="_blank">
