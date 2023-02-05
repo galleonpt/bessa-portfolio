@@ -8,7 +8,6 @@ const ServiceCard: FC<IServiceCardProps> = ({
   subtitle,
   title,
   tools,
-  onClickToolContact,
 }) => {
   return (
     <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-200 flex-1">
@@ -17,27 +16,11 @@ const ServiceCard: FC<IServiceCardProps> = ({
       <p className="py-2">{description}</p>
       <h4 className="py-4 text-teal-600">{subtitle}</h4>
       {tools.map(({ name, contact }, index) => {
-        if (name === "Email") {
-          return (
-            <p key={index} className="text-gray-800 py-1">
-              <a href={`mailto:${contact}`}>{name}</a>
-            </p>
-          );
-        } else if (name === "Discord") {
-          return (
-            <p
-              key={index}
-              className="text-gray-800 py-1 cursor-pointer"
-              onClick={onClickToolContact}
-            >
-              {name}
-            </p>
-          );
-        }
-
         return (
           <p key={index} className="text-gray-800 py-1">
-            {name}
+            <a href={`${contact}`} target="_blank">
+              {name}
+            </a>
           </p>
         );
       })}
@@ -46,14 +29,6 @@ const ServiceCard: FC<IServiceCardProps> = ({
 };
 
 export const Services: FC = () => {
-  const handleCopyToClipboard = useCallback(async () => {
-    if ("clipboard" in navigator) {
-      await navigator.clipboard.writeText("bessitos_#9635");
-      alert("Copied!");
-    }
-    return;
-  }, []);
-
   return (
     <section>
       <div>
@@ -82,7 +57,6 @@ export const Services: FC = () => {
               image={image}
               subtitle={subtitle}
               tools={tools}
-              onClickToolContact={handleCopyToClipboard}
             />
           )
         )}

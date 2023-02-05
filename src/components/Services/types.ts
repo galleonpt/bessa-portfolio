@@ -9,7 +9,6 @@ export interface IServiceCardProps {
   description: string;
   subtitle: string;
   tools: IToolsFormat[];
-  onClickToolContact: () => {};
 }
 
 export interface IServiceCardConfig {

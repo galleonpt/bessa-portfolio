@@ -10,7 +10,7 @@ export const SERVICES_CARDS_CONFIG: IServiceCardConfig[] = [
     description:
       "Creating elegant designs suited for your needs following core design theory.",
     subtitle: "Design tools I use",
-    tools: [{ name: "Figma" }, { name: "Photoshop" }, { name: "Illustrator" }],
+    tools: [{ name: "Figma" }, { name: "Photoshop" }, { name: "Premiere" }],
   },
   {
     title: "Code your dream project",
@@ -31,9 +31,6 @@ export const SERVICES_CARDS_CONFIG: IServiceCardConfig[] = [
     description:
       "Are you interested in feedback for your current project? I can give you tips and tricks to level it up.",
     subtitle: "Reach me via",
-    tools: [
-      { name: "Discord", contact: "bessitos_#9635" },
-      { name: "Email", contact: "bessaprofessional@gmail.com" },
-    ],
+    tools: [{ name: "All my links", contact: "https://allmylinks.com/bessa" }],
   },
 ];
