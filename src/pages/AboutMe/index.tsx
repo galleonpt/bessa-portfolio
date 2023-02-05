@@ -1,5 +1,4 @@
 import { FC } from "react";
-import { Header } from "../../components/Header";
 import { Introduction } from "../../components/Introduction";
 import { Portfolio } from "../../components/Portfolio";
 import { Services } from "../../components/Services";
@@ -16,7 +15,9 @@ export const AboutMe: FC = () => {
         <div>
           <h3 className="text-3xl py-1 dark:text-white">Hobbies</h3>
           <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-            Here you can see what I like to do with my free time
+            I also have a youtube channel where I plan to share some random
+            things I do in my life and I want to share with people, such trips,
+            funny activities, vlogs and also software related.
           </p>
         </div>
       </section>
