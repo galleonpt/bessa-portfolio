@@ -18,9 +18,13 @@ const ServiceCard: FC<IServiceCardProps> = ({
       {tools.map(({ name, contact }, index) => {
         return (
           <p key={index} className="text-gray-800 py-1">
-            <a href={`${contact}`} target="_blank">
-              {name}
-            </a>
+            {contact ? (
+              <a href={`${contact}`} target="_blank">
+                {name}
+              </a>
+            ) : (
+              <p>{name}</p>
+            )}
           </p>
         );
       })}
