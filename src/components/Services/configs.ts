@@ -21,7 +21,7 @@ export const SERVICES_CARDS_CONFIG: IServiceCardConfig[] = [
     tools: [
       { name: "Java" },
       { name: "C/C++" },
-      { name: ".Net Core" },
+      { name: ".NET" },
       { name: "HTML/CSS/JS" },
     ],
   },
