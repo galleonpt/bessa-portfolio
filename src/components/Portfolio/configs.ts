@@ -9,7 +9,8 @@ export const PROJECTS_CONFIG: IProjectsConfig[] = [
     image: loginTemplate,
   },
   {
-    projectUrl: "#",
+    projectUrl:
+      "https://github.com/assebc/uminho-lei/tree/main/3rd_year/LI4%20(Informatic%20Labs%20IV)",
     image: onlyFeiras,
   },
   {
