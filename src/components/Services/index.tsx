@@ -23,7 +23,7 @@ const ServiceCard: FC<IServiceCardProps> = ({
                 {name}
               </a>
             ) : (
-              <p>{name}</p>
+              <>{name}</>
             )}
           </p>
         );

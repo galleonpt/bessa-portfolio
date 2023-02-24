@@ -2,9 +2,9 @@ import { FC } from "react";
 import { PROJECTS_CONFIG } from "./configs";
 import { IImageProps } from "./types";
 
-const Image: FC<IImageProps> = ({ isLast, projectUrl, image }) => {
+const Image: FC<IImageProps> = ({ isOdd, projectUrl, image }) => {
   return (
-    <div className={`basis-1/3 ${!isLast ? "flex-1" : ""}`}>
+    <div className={`basis-1/3 ${!isOdd ? "flex-1" : ""}`}>
       <a href={projectUrl} target="_blank">
         <img
           src={image}
@@ -39,7 +39,7 @@ export const Portfolio: FC = () => {
             key={index}
             image={image}
             projectUrl={projectUrl}
-            isLast={PROJECTS_CONFIG.length - 1 === index}
+            isOdd={PROJECTS_CONFIG.length % 2 !== 0}
           />
         ))}
       </div>

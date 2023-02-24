@@ -1,5 +1,5 @@
 export interface IImageProps {
-  isLast: boolean;
+  isOdd: boolean;
   projectUrl: string;
   image: string;
 }
