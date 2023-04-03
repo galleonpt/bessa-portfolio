@@ -33,7 +33,10 @@ export const Portfolio: FC = () => {
         </p>
       </div>
 
-      <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+      <div
+        className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap"
+        style={{ display: "grid", gridTemplateColumns: "repeat(3, 2fr)" }}
+      >
         {PROJECTS_CONFIG.map(({ image, projectUrl }, index) => (
           <Image
             key={index}

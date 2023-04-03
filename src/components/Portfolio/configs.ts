@@ -2,6 +2,8 @@ import loginTemplate from "../../assets/loginTemplate.png";
 import onlyFeiras from "../../assets/onlyFeiras.png";
 import carGame from "../../assets/carGame.png";
 import pepCompanies from "../../assets/pep.png";
+import smatch from "../../assets/smatch.png";
+
 import { IProjectsConfig } from "./types";
 
 export const PROJECTS_CONFIG: IProjectsConfig[] = [
@@ -15,12 +17,16 @@ export const PROJECTS_CONFIG: IProjectsConfig[] = [
     image: onlyFeiras,
   },
   {
+    projectUrl: "https://github.com/assebc/pep-it-companies-app",
+    image: pepCompanies,
+  },
+  {
+    projectUrl: "https://github.com/assebc/SMatch",
+    image: smatch,
+  },
+  {
     projectUrl:
       "https://github.com/assebc/uminho-lei/tree/main/3rd_year/IA%20(Artificial%20Intelligense)/project",
     image: carGame,
-  },
-  {
-    projectUrl: "https://github.com/assebc/pep-it-companies-app",
-    image: pepCompanies,
   },
 ];
