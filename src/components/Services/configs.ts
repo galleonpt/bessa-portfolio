@@ -20,7 +20,7 @@ export const SERVICES_CARDS_CONFIG: IServiceCardConfig[] = [
     subtitle: "Programming Languages I use",
     tools: [
       { name: "Java" },
-      { name: "C/C++" },
+      { name: "C++" },
       { name: ".NET" },
       { name: "HTML/CSS/JS" },
     ],
