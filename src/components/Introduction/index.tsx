@@ -21,15 +21,11 @@ export const Introduction: FC = () => {
             Software Developer and Designer
           </h3>
           <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-4xl mx-auto dark:text-white">
-            As a young computer enthusiast, I have always loved computers and
-            video games. I started programming when I was 16 and since then, I
-            have been passionate about learning new technologies and expanding
-            my skill set. Throughout my high school years, I spent countless
-            hours tinkering with code, building small projects and experimenting
-            with different languages. Now, as I am currently finishing my
-            bachelors degree in software engineering, I have gained a solid
-            understanding of various programming concepts and software
-            development methodologies. I am excited to continue my journey in
+            Hello! I am currently finishing my bachelors degree in software 
+            engineering where I considered I have gained a solid understanding of 
+            various programming concepts and software development methodologies.
+            Also developed a few projects on my own where I explore different methods,
+            languages and worlds! I am excited to continue my journey in 
             the programming world and see what the future holds for me.
           </p>
         </div>
