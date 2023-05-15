@@ -21,7 +21,7 @@ export const Introduction: FC = () => {
             Software Developer and Designer
           </h3>
           <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-4xl mx-auto dark:text-white">
-            Hello! I am currently finishing my bachelors degree in software 
+            Hello! I am currently finishing my bachelors degree in computer 
             engineering where I considered I have gained a solid understanding of 
             various programming concepts and software development methodologies.
             Also developed a few projects on my own where I explore different methods,
